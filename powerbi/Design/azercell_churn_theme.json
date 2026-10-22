@@ -1,0 +1,87 @@
+{
+  "name": "Telecom Churn Dark",
+  "dataColors": ["#7B5CFF", "#2EC4B6", "#FF6B6B", "#FFB547", "#4DA3FF", "#C77DFF", "#5EE0A0", "#8B90B5"],
+  "background": "#161A33",
+  "foreground": "#E8EAF6",
+  "tableAccent": "#7B5CFF",
+  "good": "#2EC4B6",
+  "neutral": "#FFB547",
+  "bad": "#FF6B6B",
+  "maximum": "#7B5CFF",
+  "center": "#C77DFF",
+  "minimum": "#2EC4B6",
+  "textClasses": {
+    "callout": { "fontSize": 24, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" },
+    "title":   { "fontSize": 11, "fontFace": "Segoe UI Semibold", "color": "#E8EAF6" },
+    "header":  { "fontSize": 10, "fontFace": "Segoe UI Semibold", "color": "#E8EAF6" },
+    "label":   { "fontSize": 9,  "fontFace": "Segoe UI", "color": "#A3A8CC" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "title": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#E8EAF6" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI Semibold",
+          "alignment": "left"
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#A3A8CC" } },
+          "titleColor": { "solid": { "color": "#A3A8CC" } },
+          "showAxisTitle": false
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#A3A8CC" } },
+          "titleColor": { "solid": { "color": "#A3A8CC" } },
+          "gridlineColor": { "solid": { "color": "#2A3060" } },
+          "gridlineStyle": "dotted",
+          "showAxisTitle": false
+        }],
+        "legend": [{
+          "labelColor": { "solid": { "color": "#A3A8CC" } },
+          "position": "Top",
+          "fontSize": 9
+        }],
+        "labels": [{ "color": { "solid": { "color": "#E8EAF6" } }, "fontSize": 9 }]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace": [{ "color": { "solid": { "color": "#0B0E22" } } }],
+        "background": [{ "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#FFFFFF" } }, "fontSize": 22, "fontFamily": "Segoe UI Semibold" }],
+        "categoryLabels": [{ "show": true, "color": { "solid": { "color": "#A3A8CC" } }, "fontSize": 9 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [{ "show": true, "fontColor": { "solid": { "color": "#8B90B5" } }, "textSize": 8 }],
+        "items": [{
+          "fontColor": { "solid": { "color": "#E8EAF6" } },
+          "background": { "solid": { "color": "#1B2042" } },
+          "textSize": 9
+        }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#A3A8CC" } }, "backColor": { "solid": { "color": "#161A33" } } }],
+        "values": [{
+          "fontColorPrimary": { "solid": { "color": "#E8EAF6" } },
+          "backColorPrimary": { "solid": { "color": "#161A33" } },
+          "fontColorSecondary": { "solid": { "color": "#E8EAF6" } },
+          "backColorSecondary": { "solid": { "color": "#1B2042" } }
+        }],
+        "total": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#1B2042" } } }]
+      }
+    }
+  }
+}

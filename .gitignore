@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editors
+.vscode/
+.idea/
+
+# OS / Office temp files
+.DS_Store
+Thumbs.db
+~$*
