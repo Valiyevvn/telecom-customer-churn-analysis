@@ -43,7 +43,6 @@ generate_activity.py           subscriptions           v_monthly_churn          
 * **Everything is dynamic.** Python reads customers and tariffs from the database; views take the observation date and month list from the data; Power BI connects to the views and refreshes with one click. Nothing is hard-coded except the documented price-change date.
 * Power BI measures use `DIVIDE`, `REMOVEFILTERS`, `SELECTEDVALUE` and semi-additive logic (active subscribers take the last month of the selected period instead of summing).
 
-![Data model](powerbi/screenshots/04_data_model.png)
 
 ## Repository structure
 
